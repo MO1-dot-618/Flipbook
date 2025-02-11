@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipbook</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- PDF.js & Turn.js from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/4/turn.min.js"></script>
+  </head>
+  <body>
+    <h1>Flipbook Viewer</h1>
+
+    <!-- File Upload Form -->
+    <input type="file" id="pdfUpload" accept="application/pdf" />
+    <button>Upload</button>
+
+    <!-- Flipbook Container -->
+    <div id="flipbook" class="flipbook"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

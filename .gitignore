@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+
+# uploaded PDFs
+uploads/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# MacOS specific files
+.DS_Store
+
+# Temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
